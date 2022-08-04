@@ -1,0 +1,41 @@
+{
+  "productList": [
+    {
+      "productName": "Samsung",
+      "category": "Electronic",
+      "freshness": "Second Hand",
+      "price": 5000,
+      "comment": "This is Second Mobile",
+      "date": "2022-08-02T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "iphone",
+      "category": "Vagetables",
+      "freshness": "Second Hand",
+      "price": 26000,
+      "comment": "this is second hand mobile",
+      "date": "2022-08-02T18:30:00.000Z",
+      "id": 4
+    },
+    {
+      "productName": "Oppo",
+      "category": "Electronic",
+      "freshness": "Brand New",
+      "price": 11000,
+      "comment": "brand new mobile",
+      "date": "2022-08-02T18:30:00.000Z",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
