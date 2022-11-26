@@ -24,6 +24,7 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.getAllProduct();
   }
+
   openDialog() {
     this.dialog.open(DialogComponent,{
       width:'30%'
@@ -44,7 +45,7 @@ export class AppComponent implements OnInit {
       },
       error:()=>{
         console.log("Error While Fatching The Record");
-        
+
       }
     }
     )
